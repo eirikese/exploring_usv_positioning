@@ -1,10 +1,7 @@
 # Exploring Auxiliary Sensors and Algorithms for Autonomous Surface Vessel Positioning
 Project thesis NTNU, December 2023
 
-[icp_bay_lines.pdf](https://github.com/eirikese/exploring_usv_positioning/files/13693277/icp_bay_lines.pdf)
 ![80x80_mr_stl_detected](https://github.com/eirikese/exploring_usv_positioning/assets/118887178/ce11d1c3-716a-43c6-8704-107e95e6fb40)
-![pose_bounding_box](https://github.com/eirikese/exploring_usv_positioning/assets/118887178/d84f2e89-9bbd-4bed-a16a-d1eefbcde5d2)
-[cv2_boot_longside_rigid_trans_10_deg.pdf](https://github.com/eirikese/exploring_usv_positioning/files/13693276/cv2_boot_longside_rigid_trans_10_deg.pdf)
 
 
 
@@ -20,9 +17,9 @@ The code is divided into three main parts, one for each positioning method.
 The code for Point Cloud Object Detection is developed using ROS Noetic and C++, on Ubuntu 20.04. The PCL library is used for point cloud clustering and pose estimation.
 Relative Positioning using Fiducial Markers utilizes OpenCV, together with ArUco markers for detection and relative positioning.
 The Map Fitting algorithm uses three different approaches to fit a source point cloud to a noisy target: 
-1. RANSAC single line fitting
-2. OpenCV homography and longside fitting
-3. centroid-aligned, iterative rotation, ICP approach
+* RANSAC single line fitting
+* OpenCV homography and longside fitting
+* centroid-aligned, iterative rotation, ICP approach
 
 More details on the functionality of each method can be found in the top section of the code files.
 
