@@ -17,9 +17,13 @@ The code is divided into three main parts, one for each positioning method.
 The code for Point Cloud Object Detection is developed using ROS Noetic and C++, on Ubuntu 20.04. The PCL library is used for point cloud clustering and pose estimation. The lidar used for testing is Ouster OS1-64, with data transfer via ROS pointcloud2 messages.
 Relative Positioning using Fiducial Markers utilizes OpenCV, together with ArUco markers for detection and relative positioning.
 The Map Fitting algorithm uses three different approaches to fit a source point cloud to a noisy target: 
-* RANSAC single-line fitting
-* OpenCV homography and longside fitting
-* centroid-aligned, iterative rotation, ICP approach
+
+| Approach | Code |
+|-|-|
+| RANSAC single-line fitting | ransac_fit|
+| OpenCV homography and longside fitting | cv2_map |
+| Centroid-aligned, iterative rotation, ICP fitting | o3d_map |
+
 
 More details on the functionality of each method can be found in the top section of the code files.
 
