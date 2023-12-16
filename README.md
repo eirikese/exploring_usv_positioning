@@ -29,4 +29,4 @@ More details on the functionality of each method can be found in the top section
 
 
 >**Acknowledgement**:
->*During the preparation of this work the authors used ChatGPT from OpenAI in order to improve language and readability for code and documentation. After using this tool/service, the author(s) reviewed and edited the content as needed and take(s) full responsibility for the content of the publication.*
+>*During the preparation of this work the authors used ChatGPT from OpenAI in order to improve readability of the code. After using this tool/service, the author(s) reviewed and edited the content as needed and take(s) full responsibility for the content of the publication.*
