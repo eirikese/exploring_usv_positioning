@@ -11,7 +11,7 @@ This repository contains all the code, documentation, and resources for our proj
 ## Code overview 
 The code is divided into three main parts, one for each positioning method.
 * Relative Positioning using Fiducial Markers
-* Point Cloud Object Detection
+* Point Cloud Object Detection and Ranging
 * Point Cloud Map Fitting
 
 The code for Point Cloud Object Detection is developed using ROS Noetic and C++, on Ubuntu 20.04. The PCL library is used for point cloud clustering and pose estimation. The lidar used for testing is Ouster OS1-64, with data transfer via ROS pointcloud2 messages.
