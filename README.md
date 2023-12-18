@@ -6,7 +6,7 @@ Project thesis NTNU, December 2023
 
 
 ## Description
-This repository contains all the code, documentation, and resources for our project thesis in collaboration with Maritime Robotics. Here, you'll find the algorithms and software developed for robust positioning of uncrewed surface vessels (USVs) in harbor environments, with a focus on sensor fusion using LiDAR and RGB cameras. This repo serves as a comprehensive resource for anyone interested in maritime robotics, autonomous navigation, and sensor fusion technology.
+This repository contains all the code, documentation, and resources for our project thesis in collaboration with Maritime Robotics. Here, you'll find the algorithms and software developed for robust positioning of uncrewed surface vessels (USVs) in harbor environments, with a focus on sensor fusion using LiDAR and RGB cameras. This repo serves as a resource for the project thesis.
 
 ## Code overview 
 The code is divided into three main parts, one for each positioning method.
