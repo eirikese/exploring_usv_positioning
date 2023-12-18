@@ -20,7 +20,8 @@ The Map Fitting algorithm uses three different approaches to fit a source point 
 
 | Approach | Code |
 |-|-|
-| RANSAC single-line fitting | ransac_fit|
+| Fiducial marker detection using a RGB camera | fiducial marker detection_RGB |
+| RANSAC single-line fitting | ransac_fit |
 | OpenCV homography and longside fitting | cv2_map |
 | Centroid-aligned, iterative rotation, ICP fitting | o3d_map |
 
