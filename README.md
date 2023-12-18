@@ -20,11 +20,13 @@ The Map Fitting algorithm uses three different approaches to fit a source point 
 
 | Approach | Code |
 |-|-|
-| Fiducial marker detection using an RGB camera | marker_detection_RGB |
-| Weather forecast using APIs | weather_forecasts |
-| RANSAC single-line fitting | ransac_fit |
 | OpenCV homography and longside fitting | cv2_map |
+| Fiducial marker detection using an RGB camera | marker_detection_rgb |
 | Centroid-aligned, iterative rotation, ICP fitting | o3d_map |
+| Point Cloud Cluster Detection | pointcloud_cluster_detection |
+| Point Cloud Filtering | pointcloud_filter |
+| RANSAC single-line fitting | ransac_map |
+| Weather forecast using APIs | weather_forecasts |
 
 
 More details on the functionality of each method can be found in the top section of the code files.
