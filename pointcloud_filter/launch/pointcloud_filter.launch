@@ -1,0 +1,12 @@
+<launch>
+  <!-- Node to run the point cloud filter, from 0 to 255 -->
+  <node name="pointcloud_filter_node" pkg="pointcloud_filter" type="pointcloud_filter_node" output="log">
+    <param name="min_intensity" type="double" value="0.0"/>
+    <param name="max_intensity" type="double" value="255.0"/>
+  </node>
+
+  <!-- Node to launch RViz with a specific configuration file -->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find pointcloud_filter)/rviz/ouster_rviz.rviz">
+    <param name="rviz_config" value="$(find pointcloud_filter)/rviz/ouster_rviz.rviz"/>
+  </node>
+</launch>
